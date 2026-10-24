@@ -27,6 +27,12 @@ Renters book cars and owners earn from them.
 - A Rasa support chatbot
 - React 19, Redux, Node.js, Express, MongoDB
 
+### [AnimalShelter](https://github.com/Bissa9/AnimalShelter): shelter and adoption API (ASP.NET Core, .NET 10)
+A REST API where users browse and adopt animals and admins manage the catalogue. Adoptions are transactional with optimistic concurrency, so two people can't adopt the same animal.
+
+- JWT auth with hashed refresh tokens, role-based access, rate limiting, Redis caching
+- Clean architecture, integration tests against real MySQL and Redis containers (Testcontainers), Docker and GitHub Actions CI
+
 ### [ClearDay](https://github.com/Bissa9/ClearDay): energy-aware task planner
 Pick your energy level and get a realistic next task, instead of a wall of to-dos.
 
