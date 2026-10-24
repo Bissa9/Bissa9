@@ -19,13 +19,11 @@ An order pipeline that reserves stock inside a database transaction (Repeatable 
 - Layered architecture (Domain, Application, Infrastructure, API), repository and unit-of-work patterns
 - JWT auth with four roles, FluentValidation, Serilog, Swagger, EF Core with MySQL
 
-### [Rently](https://github.com/Bissa9/Rently): peer-to-peer car rental marketplace
-Renters book cars and owners earn from them.
+### [Rently](https://github.com/Bissa9/Rently): peer-to-peer car rental marketplace (team project)
+Renters book cars and owners earn from them. I built the React front end and part of the Stripe payment flow on the back end.
 
-- Stripe payments, webhooks and refunds; JWT auth with email verification and password reset
-- Car listings with image uploads, availability checks, reviews, loyalty points, owner earnings and withdrawals
-- A Rasa support chatbot
-- React 19, Redux, Node.js, Express, MongoDB
+- Front end: React 19, Redux, protected routes, search and filters, booking and payment pages
+- Back end (team): Node.js, Express, MongoDB, JWT auth, Stripe payments and refunds, a Rasa support chatbot
 
 ### [AnimalShelter](https://github.com/Bissa9/AnimalShelter): shelter and adoption API (ASP.NET Core, .NET 10)
 A REST API where users browse and adopt animals and admins manage the catalogue. Adoptions are transactional with optimistic concurrency, so two people can't adopt the same animal.
