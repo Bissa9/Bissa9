@@ -42,7 +42,7 @@ Pitch detection with the Web Audio API drives an arrow flying through a lit hall
 ## What I work with
 
 | Area | Tools |
-
+|---|---|
 | Back end | C#, ASP.NET Core (MVC and Web API), Entity Framework Core, SignalR, ASP.NET Identity, JWT, Node.js, Express |
 | Data | MySQL, SQLite, MongoDB, Prisma |
 | Front end | React, Next.js, TypeScript, Redux, Tailwind CSS |
